@@ -5,12 +5,11 @@ public class Calculator {
     private static int x = 5;
 
     private int divide(int a) {
-        return x / a;
+        return a / x;
     }
 
     public int sumAllOperation(int c) {
-        int total = divide(c) + sum(c) + minus(c) + multiply(c);
-        return total;
+        return divide(c) + sum(c) + minus(c) + multiply(c);
     }
 
     public static int sum(int y) {
@@ -18,7 +17,7 @@ public class Calculator {
     }
 
     public static int minus(int z) {
-        return x - z;
+        return z - x;
     }
 
     public int multiply(int a) {
