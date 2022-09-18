@@ -19,6 +19,8 @@ class JSONReportTest {
         String result = new JSONReport().generate(name, body);
         assertThat(result).isEqualTo(expected);
     }
+
+
     @Test
     public void whenNameIsDavidBodyIsNameSong() {
         String ln = System.lineSeparator();
