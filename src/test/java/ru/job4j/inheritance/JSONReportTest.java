@@ -20,7 +20,6 @@ class JSONReportTest {
         assertThat(result).isEqualTo(expected);
     }
 
-
     @Test
     public void whenNameIsDavidBodyIsNameSong() {
         String ln = System.lineSeparator();
