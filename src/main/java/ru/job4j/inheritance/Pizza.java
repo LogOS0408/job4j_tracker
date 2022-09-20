@@ -2,6 +2,6 @@ package ru.job4j.inheritance;
 
 public class Pizza {
     public String name() {
-        return "Just testy pizza";
+        return "Just testy pizza ";
     }
 }
