@@ -2,16 +2,16 @@ package ru.job4j.pojo;
 
 public class Student {
 
-    String fio;
-    String group;
-    String dateOfReceipt;
+    private String fullName;
+    private String group;
+    private String dateOfReceipt;
 
-    public String getFio() {
-        return fio;
+    public String getfullName() {
+        return fullName;
     }
 
-    public void setFio(String fio) {
-        this.fio = fio;
+    public void setfullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public String getGroup() {
