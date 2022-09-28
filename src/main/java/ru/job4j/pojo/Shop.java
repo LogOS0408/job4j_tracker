@@ -3,13 +3,11 @@ package ru.job4j.pojo;
 public class Shop {
 
     public static int indexOfNull(Product[] products) {
-        int rls = 0;
+        int rls = -1;
         for (int i = 0; i < products.length; i++) {
             if (products[i] == null) {
                 rls = i;
                 break;
-            } else {
-                return -1;
             }
         }
         return rls;
