@@ -34,7 +34,7 @@ public class Library {
         System.out.println("Book search \"Clean code\".");
         for (int i = 0; i < books.length; i++) {
             Book book = books[i];
-            if (book.getNameOfBook().equals("\"Clean code\"")) {
+            if ("\"Clean code\"".equals(book.getNameOfBook())) {
                 System.out.println("The book " + book.getNameOfBook() + " is founded.");
             }
         }
